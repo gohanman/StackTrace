@@ -1,0 +1,22 @@
+{
+    "name": "gohanman/stack-trace",
+    "description": "A simple PHP library to format & filter a stack trace",
+    "version": "1.0.0",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Andy Theuninck",
+            "email": "andy@gohanman.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+            "Gohanman\\StackTrace\\": "src/"
+        }
+    },
+    "require": {}
+}
